@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fontin",
-    version="0.0.8",
+    version="0.0.9",
     author="Laxya Pahuja",
     author_email="laxya.pahuja8@gmail.com",
     description="A better font extractor and installer for bulk fonts in one archive.",

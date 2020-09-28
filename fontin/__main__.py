@@ -62,16 +62,18 @@ def install_all(paths):
                 install_font(font_path)
 
 def main():
-    time.sleep(5)
-    file = find_archives()
-    path = extract(file)
-    install_all(path)
-    print('Close? [y/n]')
-    n = input().lower()
-    if n == 'y':
-        sys.exit()
+    if is_admin():
+        file = find_archives()
+        path = extract(file)
+        install_all(path)
+        print('Close? [y/n]')
+        n = input().lower()
+        if n == 'y':
+            sys.exit()
+        else:
+            main()
     else:
-        main()
+        print('Please run the program as administrator.')
 
 if __name__ == '__main__':
     main()

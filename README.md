@@ -1,7 +1,7 @@
 # font-in
 A better font extractor and installer for bulk fonts in one archive.
 
-### font-in installs all the 
+### font-in installs all the fonts in different archives automatically
 
 # Installation
 
