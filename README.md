@@ -10,6 +10,7 @@ pip install fontin
 ```
 
 # How to use
+YOU HAVE TO RUN CMD AS ADMINISTRATOR.
 To start using it, open command prompt in the folder which has archive of fonts (For example: Downloads). This can be done by simply changing the path in the file explorer to cmd.
 Run it by typing ```fontin``` in cmd and then follow along.
 
